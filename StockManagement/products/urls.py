@@ -1,8 +1,8 @@
-from django.urls import re_path, include
-from products import views 
+from django.urls import path
+from products import views
 
-urlpatterns = [ 
-    re_path(r'^api/products$', views.product_list),
-    re_path(r'^api/products/(?P<pk>[0-9]+)$', views.product_detail),
-    re_path(r'^api/products/published$', views.product_list_published),
+urlpatterns = [
+    path('api/products/', views.product_list, name='product-list'),
+    path('api/products/<int:pk>/', views.product_detail, name='product-detail'),
+    path('api/products/published/', views.product_list_published, name='product-list-published'),
 ]

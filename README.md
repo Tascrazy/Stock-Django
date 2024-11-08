@@ -114,7 +114,7 @@ Navegue até a pasta do frontend e instale as dependências com o comando:
 
 - **npm install**
 
-- **Rodar o servidor:**
+#### **Rodar o servidor**:
 Para iniciar o servidor de desenvolvimento, utilize:
 
 - **npm start**

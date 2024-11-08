@@ -97,7 +97,7 @@ O desenvolvimento foi dividido em três etapas principais:
 ## **Instruções para Execução do Projeto**
 
 - **Backend (Django)**
-Instalar dependências:
+#### **Instalar dependências**:
 Navegue até a pasta do backend e instale as dependências com o comando:
 
 - **pip install -r requirements.txt**
@@ -109,7 +109,7 @@ Para iniciar o servidor de desenvolvimento, utilize:
 O backend estará rodando em http://127.0.0.1:8000/.
 
 - **Frontend (React)**
-Instalar dependências:
+#### **Instalar dependências**:
 Navegue até a pasta do frontend e instale as dependências com o comando:
 
 - **npm install**

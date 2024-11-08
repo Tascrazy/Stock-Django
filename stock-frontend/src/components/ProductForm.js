@@ -43,6 +43,7 @@ const ProductForm = ({ productToEdit, onSave }) => {
             api.post('products/', product)
                 .then((response) => {
                     alert('Produto adicionado com sucesso!');
+                    window.location.reload();
                     onSave();
                 })
                 .catch((error) => {
